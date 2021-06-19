@@ -14,7 +14,6 @@ public class Tenant {
     String address;
     int zipCode;
 
-
     public String getId() {
         return id;
     }
