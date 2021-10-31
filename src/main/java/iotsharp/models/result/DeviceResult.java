@@ -1,9 +1,11 @@
-package iotsharp.models;
+package iotsharp.models.result;
+
+import iotsharp.models.result.entities.Customer;
+import iotsharp.models.result.entities.Tenant;
 
 import java.util.Date;
 
-public class Device {
-
+public class DeviceResult {
     public String getId() {
         return id;
     }
@@ -76,5 +78,6 @@ public class Device {
     String online;
     Date lastActive;
     int timeout;
+
 
 }
