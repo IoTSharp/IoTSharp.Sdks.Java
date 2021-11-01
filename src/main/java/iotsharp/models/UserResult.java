@@ -1,6 +1,8 @@
 package iotsharp.models;
 
 import iotsharp.CommonResult;
+import iotsharp.models.result.entities.SignIn;
+import iotsharp.models.result.entities.Token;
 
 public class UserResult extends CommonResult {
 

@@ -1,6 +1,7 @@
 package iotsharp.models;
 
 import iotsharp.CommonResult;
+import iotsharp.models.result.entities.UserInfo;
 
 public class UserInfoResult extends CommonResult {
 
